@@ -6,6 +6,8 @@ const requireComponent = require.context(
   '@/components', true, /\.vue$/
 )
 
+// commit 1 from master
+
 requireComponent.keys().forEach(fileName => {
   const componentConfig = requireComponent(fileName)
 
