@@ -7,6 +7,7 @@ const requireComponent = require.context(
 )
 
 // commit 1 from master
+//commit 2 from master
 
 requireComponent.keys().forEach(fileName => {
   const componentConfig = requireComponent(fileName)
